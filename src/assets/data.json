@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "heading": "PONDICHERRY",
+    "date": "MAY 05, 2020",
+    "image": "../src/assets/img/pondy_street.jpg",
+    "description": "Pondicherry is a tourist destination. The city has many colonial buildings, churches, temples, and statues which, combined with the town planning and French-style avenues in the old districts, still preserve much of the colonial ambiance..",
+    "content": {
+      "heading": "PONDICHERRY TOURISM",
+      "data1": " As a result of the city's seawall and groyne construction, the beaches further up the coast to the north have also been lost. An enormous deposition of sand has accrued to the south of the harbour breakwater, but this is not a large beach and is not easily accessible from the city",
+      "data2": "Nearby places such as Arikamedu, Ariyankuppam, Kakayanthoppe, Villianur, and Bahour, which were colonised by the French East India Company over a period of time and later became the union territory of Pondicherry, have recorded histories that predate the colonial period.",
+      "data3": "Puducherry Botanical Gardens is located south of the New Bus Stand. Chunnambar Backwater resort is 8 km (5.0 mi)from Pondicherry, along Cuddalore Main Road. This tropical resort is flanked by a creek on one side."
+    }
+  },
+  {
+    "id": 2,
+    "heading": "KULLU MANALI ",
+    "date": "JUNE 10, 2023",
+    "image": "../src/assets/img/travels.jpg",
+    "description": "Top Places to Visit in Kullu Manali includes Rohtang Pass, Hampta Pass, Malana Village, Kasol, Parvathi Valley, Bhrigu Lake, Manikaran Gurudwara, Solang valley and many more. ",
+    "content": {
+      "heading": "KULLU MANALI TOURISM",
+      "data1": "You can also visit various villages to escape the humdrum of the cities and some lakes to witness the beautiful contrast of blue against the green. Trips to the breathtaking places like Kasol and Rohtang Pass can also be planned while visiting these gems of the Himalayas.",
+      "data2": "Overflowing with nature, and an abundance of flora-fauna surviving in it, there are fantastic tourist places in Kullu Manali. The place invites every age group as it has something for everyone starting from unmatchable sites to ancient temples",
+      "data3": "Located at a height of 3,978m above sea level, the Rohtang Pass is a high altitude mountain pass of the Pir Panjal Himalayan range which connects the Kullu Valley with the Lahaul and Spiti Valley of Himachal Pradesh"
+    }
+  },
+  {
+    "id": 3,
+    "heading": "OOTY-NILGIRIS",
+    "date": "JAN 20, 2019",
+    "image": "../src/assets/img/ooty_.png",
+    "description": " There is a boat house established alongside the Ooty lake, which offers boating facilities to tourists and is a major tourist attraction in Ooty. A boat house is also located at the Pykara falls and dam. The Government Rose Garden situated on the slopes of the Elk Hill, has more than 20,000 varieties of roses of 2,800 cultivars and is the largest rose garden in India ",
+    "content": {
+      "heading": "OOTY-NILGIRIS TOURISM",
+      "data1": "There are a few traditional Toda dogles on the hills above the Botanical Garden, where Todas still dwell.The Tribal Museum, opened in 1995, is part of the campus of Tribal Research Center",
+      "data2": "Spread over an area of nearly zero point four zero hectares of land, the tea factory and museum entertains visitors where they can learn about the origin of different kinds of tea leaves all across the globe and the history of tea in India.",
+      "data3": "There are a few traditional Toda dogles on the hills above the Botanical Garden, where Todas still dwell. The Tribal Museum, opened in 1995, is part of the campus of Tribal Research Center which is about from Ooty and is home to rare artifacts and photographs of tribal groups of Tamil Nadu and Andaman and Nicobar, anthropological and archaeological primitive human culture and heritage"
+    }
+  }
+]

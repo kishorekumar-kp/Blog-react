@@ -2,7 +2,7 @@ import contact from "../assets/img/bgimg.png";
 const ContactPage = () => {
   return (
     <>
-      <div className="flex p-20  justify-center ">
+      <div className="flex p-20  justify-center h-screen">
         <div className="">
           <img
             src={contact}

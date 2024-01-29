@@ -53,13 +53,13 @@ const HomePage = () => {
             <div className="mx-auto p-5 items-center ">
               <ul className="flex space-x-5 items-center">
                 <li>
-                  <a to={"www.facebook.com"} target="_blank">
+                  <a to={"https://www.facebook.com/"} target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="28"
                       height="28"
                       viewBox="0 0 24 24"
-                      className=" cursor-pointer hover:text-cream-brown"
+                      className=" cursor-pointer hover:text-light-brown"
                     >
                       <path
                         fill="currentColor"
@@ -69,13 +69,13 @@ const HomePage = () => {
                   </a>
                 </li>
                 <li>
-                  <a to={""} target="_blank">
+                  <a to={"https://www.instagram.com/?hl=en"} target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       viewBox="0 0 512 512"
-                      className=" cursor-pointer hover:text-cream-brown"
+                      className=" cursor-pointer hover:text-light-brown"
                     >
                       <path
                         fill="currentColor"
@@ -89,13 +89,13 @@ const HomePage = () => {
                   </a>
                 </li>
                 <li>
-                  <a to={""} target="_blank">
+                  <a to={"https://github.com/kishorekumar-kp"} target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       viewBox="0 0 16 16"
-                      className="cursor-pointer hover:text-cream-brown"
+                      className="cursor-pointer hover:text-light-brown"
                     >
                       <path
                         fill="currentColor"
@@ -105,12 +105,13 @@ const HomePage = () => {
                   </a>
                 </li>
                 <li>
-                  <a to={""} target="_blank">
+                  <a to={"https://discord.com/"} target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
                       height="32"
                       viewBox="0 0 24 24"
+                      className="cursor-pointer hover:text-light-brown"
                     >
                       <path
                         fill="currentColor"
@@ -119,6 +120,7 @@ const HomePage = () => {
                     </svg>
                   </a>
                 </li>
+                
               </ul>
             </div>
           </div>

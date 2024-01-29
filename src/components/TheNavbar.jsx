@@ -2,28 +2,28 @@ import { Link } from "react-router-dom";
 
 const TheNavbar = () => {
   return (
-    <div className="bg-dark-brown text-cream-white flex justify-between py-2 px-52 ">
+    <div className="bg-dark-brown text-cream-white flex justify-between py-4 px-52">
       {/* <h1 className="text-xl font-bold">Kishore-Blogs</h1> */}
       <ul className="flex space-x-10 ">
-        <li className=" cursor-pointer hover:text-cream-brown">
+        <li className=" cursor-pointer hover:text-light-brown">
           <Link to={"/"}>Home</Link>
         </li>
-        <li className=" cursor-pointer hover:text-cream-brown">
+        <li className=" cursor-pointer hover:text-light-brown">
           <Link to={"/about"}>About</Link>
         </li>
-        <li className=" cursor-pointer hover:text-cream-brown">
+        <li className=" cursor-pointer hover:text-light-brown">
           <Link to={"/contact"}>Contact</Link>
         </li>
       </ul>
       <ul className="flex space-x-5 items-center">
         <li>
-          <Link to={"www.facebook.com"} target="_blank">
+          <Link to={"https://www.facebook.com/"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
               height="28"
               viewBox="0 0 24 24"
-              className=" cursor-pointer hover:text-cream-brown"
+              className=" cursor-pointer hover:text-light-brown"
             >
               <path
                 fill="currentColor"
@@ -33,13 +33,13 @@ const TheNavbar = () => {
           </Link>
         </li>
         <li>
-          <Link to={""} target="_blank">
+          <Link to={"https://www.instagram.com/?hl=en"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 512 512"
-              className=" cursor-pointer hover:text-cream-brown"
+              className=" cursor-pointer hover:text-light-brown"
             >
               <path
                 fill="currentColor"
@@ -53,13 +53,45 @@ const TheNavbar = () => {
           </Link>
         </li>
         <li>
-          <Link to={""} target="_blank">
+          <Link to={"https://www.linkedin.com/in/kishorekumar-kp/"} target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 24 24"
+              className="cursor-pointer hover:text-light-brown"
+            >
+              <path
+                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096a1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277c-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387c2.704 0 3.203 1.778 3.203 4.092v4.71z"
+                fill="currentColor"
+              />
+            </svg>
+          </Link>
+        </li>
+        <li>
+          <Link to={"https://discord.com/"} target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              className="cursor-pointer hover:text-light-brown"
+            >
+              <path
+                fill="currentColor"
+                d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02M8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12m6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12"
+              />
+            </svg>
+          </Link>
+        </li>
+        <li>
+          <Link to={"https://github.com/kishorekumar-kp"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 16 16"
-              className="cursor-pointer hover:text-cream-brown"
+              className="cursor-pointer hover:text-light-brown"
             >
               <path
                 fill="currentColor"

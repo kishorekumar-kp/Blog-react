@@ -3,7 +3,7 @@
     "id": 1,
     "heading": "PONDICHERRY",
     "date": "MAY 05, 2020",
-    "image": "../../public/img/pondy_street.jpg",
+    "image": "../../img/pondy_street.jpg",
     "description": "Pondicherry is a tourist destination. The city has many colonial buildings, churches, temples, and statues which, combined with the town planning and French-style avenues in the old districts, still preserve much of the colonial ambiance..",
     "content": {
       "heading": "PONDICHERRY TOURISM",
@@ -16,7 +16,7 @@
     "id": 2,
     "heading": "KULLU MANALI ",
     "date": "JUNE 10, 2023",
-    "image":  "../../public/img/travels.jpg",
+    "image":  "../../img/travels.jpg",
     "description": "Top Places to Visit in Kullu Manali includes Rohtang Pass, Hampta Pass, Malana Village, Kasol, Parvathi Valley, Bhrigu Lake, Manikaran Gurudwara, Solang valley and many more. ",
     "content": {
       "heading": "KULLU MANALI TOURISM",
@@ -29,7 +29,7 @@
     "id": 3,
     "heading": "OOTY-NILGIRIS",
     "date": "JAN 20, 2019",
-    "image":  "../../public/img/ooty_.png",
+    "image":  "../../img/ooty_.png",
     "description": " There is a boat house established alongside the Ooty lake, which offers boating facilities to tourists and is a major tourist attraction in Ooty. A boat house is also located at the Pykara falls and dam. The Government Rose Garden situated on the slopes of the Elk Hill, has more than 20,000 varieties of roses of 2,800 cultivars and is the largest rose garden in India ",
     "content": {
       "heading": "OOTY-NILGIRIS TOURISM",

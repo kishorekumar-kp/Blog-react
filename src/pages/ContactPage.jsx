@@ -1,8 +1,8 @@
-import contact from "../assets/img/bgimg.png";
+import contact from "../../public/img/bgimg.png";
 const ContactPage = () => {
   return (
     <>
-      <div className="flex p-20  justify-center h-screen">
+      <div className="md:flex p-20  justify-center h-screen">
         <div className="">
           <img
             src={contact}
@@ -15,15 +15,15 @@ const ContactPage = () => {
         <div className="flex items-center  flex-col my-auto text-lg space-y-3">
           <h1 className="text-2xl font-semibold underline"> Contact Me</h1>
 
-          <p className="text">
+          <p className="md:text-lg text-sm">
             Get In Touch with: {" "}
             <a href="kpkishorekumar26@gmail.com" target="_blank">
               kpkishorekumar26@gmail.com
             </a>
           </p>
 
-          <p className="">Mobile No: +91 7339629143</p>
-          <div className="mx-auto p-5 items-center space-y-2 ">
+          <p className="md:text-lg text-sm">Mobile No: +91 7339629143</p>
+          <div className="flex justify-center  flex-col mx-auto md:p-5 items-center space-y-2 ">
           <p className="text-center">Find me on</p>
             <ul className="flex space-x-5 items-center">
               <li>

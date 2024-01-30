@@ -8,7 +8,8 @@ const BlogdetailsPage = () => {
   });
   // console.log(allBlog);
   return (
-    <div className="px-20 py-10 space-y-3 mt-10 max-w-4xl mx-auto flex flex-col bg-cream-brown">
+    <div className="p-5">
+    <div className="lg:px-20 lg:py-10 p-5 space-y-3 mt-10 max-w-4xl mx-auto flex flex-col bg-cream-brown">
       <h1 className="text-2xl font-bold text-dark-brown text-center">
         {allBlog.heading}
       </h1>
@@ -24,6 +25,7 @@ const BlogdetailsPage = () => {
         <p>{allBlog.content.data2}</p>
         <p>{allBlog.content.data3}</p>
       </div>
+    </div>
     </div>
   );
 };

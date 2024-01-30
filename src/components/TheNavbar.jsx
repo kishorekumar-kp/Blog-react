@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const TheNavbar = () => {
   return (
-    <div className="bg-dark-brown text-cream-white flex justify-between py-4 px-52">
+    <div className="bg-dark-brown text-cream-white sm:space-x-10 flex justify-between py-4 px-10 sm:px-52">
       {/* <h1 className="text-xl font-bold">Kishore-Blogs</h1> */}
       <ul className="flex space-x-10 ">
         <li className=" cursor-pointer hover:text-light-brown">
@@ -15,7 +15,7 @@ const TheNavbar = () => {
           <Link to={"/contact"}>Contact</Link>
         </li>
       </ul>
-      <ul className="flex space-x-5 items-center">
+      <ul className="hidden sm:flex space-x-5 items-center">
         <li>
           <Link to={"https://www.facebook.com/"} target="_blank">
             <svg

@@ -5,14 +5,14 @@ const HomePage = () => {
     console.log(blogDatas);
     return (
       <div
-        className="max-w-3xl m-auto bg-cream-brown pt-5 pb-10 px-10 flex flex-col mt-5 "
+        className="max-w-2xl sm:max-w-3xl m-auto bg-cream-brown pt-5 pb-10 px-10 flex flex-col mt-5 "
         key={blogDatas.id}
       >
-        <h3 className="text-2xl font-semibold pt-5 text-center ">
+        <h3 className="text-xl sm:text-2xl font-semibold pt-5 text-center ">
           {blogDatas.heading}
         </h3>
         <p className="text-center pb-5">{blogDatas.date}</p>
-        <img src={blogDatas.image} alt="" className="h-96 " />
+        <img src={blogDatas.image} alt="" className=" h-auto" />
         <p className="py-5">{blogDatas.description}</p>
 
         <button className="px-5 py-2 bg-dark-brown text-cream-white rounded-md text-lg items-center">
@@ -22,16 +22,14 @@ const HomePage = () => {
     );
   });
 
-  // console.log(blogData);
-
   return (
-    <div className="px-52 ">
-      <h1 className="p-10 text-5xl  text-center text-dark-brown italic font-Pacifico">
+    <div className="lg:px-52 px-10">
+      <h1 className="sm:p-10 p-5 text-2xl sm:text-5xl  text-center text-dark-brown italic font-Pacifico">
         Kishore Travels Blogs
       </h1>
-      <div className="flex space-x-5">
+      <div className=" lg:flex   lg:space-x-5">
         <div>{blogData}</div>
-        <div className="max-w-64 py-5 px-3 space-y-4 h-4/5">
+        <div className="lg:max-w-64 py-5 md:p-5  w-auto h-auto lg:py-5 lg:px-3 space-y-4 lg:h-4/5">
           <div className="mb-5 border-2 border-dark-brown">
             <h1 className="bg-dark-brown text-center p-1 text-cream-white ">
               About Me
@@ -51,7 +49,7 @@ const HomePage = () => {
               Social Networks
             </h1>
             <div className="mx-auto p-5 items-center ">
-              <ul className="flex space-x-5 items-center">
+              <ul className="flex md:space-x-5 items-center space-x-2">
                 <li>
                   <a to={"https://www.facebook.com/"} target="_blank">
                     <svg
